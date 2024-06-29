@@ -47,7 +47,7 @@ You need to have the following software installed:
 
 ## Built With
 
-- [Backbone.js](https://backbonejs.org/) - The JavaScript library used for building MV* applications
+- [Backbone.js](https://backbonejs.org/) - The JavaScript library used for building MVC applications
 - [RequireJS](https://requirejs.org/) - The JavaScript file and module loader
 - [r.js](https://requirejs.org/docs/optimization.html) - The optimizer used to compile the JavaScript files for production
 
@@ -57,7 +57,7 @@ A note about `Underscore.js`. The version installed with npm will not be exposed
 
 You will have to define underscore as a dependency in all the modules you need to use the library in. This may have a better memory footprint. 
 
-For ease, inside of src/vendor/underscore is a different version of underscore that will be scoped within the global environemt when add to the `congig.js` script. 
+For ease, inside of src/vendor/underscore is a different version of underscore that will be scoped within the global environemt when added to the `congig.js` script. 
 
 
 ```javascript

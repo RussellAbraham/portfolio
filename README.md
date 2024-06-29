@@ -66,7 +66,7 @@ define(['backbone'], function(Backbone) {
 
 });
 /* Version downloaded with NPM */
-define(['backbone', 'underscore'], function(_) {
+define(['backbone', 'underscore'], function(Backbone, _) {
 
 });
 ```

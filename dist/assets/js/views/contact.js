@@ -1,2 +1,0 @@
-define(["backbone","assets/js/models/contact","text!assets/html/contact.html"],function(t,e,n){return t.View.extend({model:new e,template:_.template($(n).html()),initialize:function(){this.render()},render:function(){return this.$el.html(this.template(this.model.toJSON())),this}})});
-//# sourceMappingURL=contact.js.map

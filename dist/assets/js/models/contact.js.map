@@ -1,1 +1,0 @@
-{"version":3,"sources":["?"],"names":["define","Backbone","Model","extend","defaults","email","phone","github","linkedin"],"mappings":"AAAAA,QAAQ,YAAY,SAASC,GAW3B,MATkBA,GAASC,MAAMC,QACjCC,UACCC,MAAQ,GACLC,MAAQ,GACRC,OAAS,GACTC,SAAW","file":"contact.js"}

@@ -1,7 +1,7 @@
 {
-  "name": "backbone-requirejs-demo",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "This project serves as a template and demonstration of using Backbone.js with RequireJS to build a modular and maintainable JavaScript application. It includes a basic setup with a single router and a view, showcasing the capabilities of these libraries in structuring a web application. Additionally, it demonstrates the use of r.js for optimizing and compiling JavaScript files for production.",
+  "description": "A profile website built with backbone",
   "main": "index.js",
   "scripts": {
     "start": "node bin/server.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RussellAbraham/backbone-requirejs-demo.git"
+    "url": "git+https://github.com/RussellAbraham/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RussellAbraham/backbone-requirejs-demo/issues"
+    "url": "https://github.com/RussellAbraham/portfolioissues"
   },
-  "homepage": "https://github.com/RussellAbraham/backbone-requirejs-demo#readme",
+  "homepage": "https://github.com/RussellAbraham/portfolio#readme",
   "dependencies": {
     "backbone": "^1.6.0",
     "bootstrap": "^4.6.2",

@@ -1,0 +1,2 @@
+define(["backbone","assets/js/views/container","assets/js/views/home","assets/js/views/about","assets/js/views/contact"],function(t,e,n,i,s){return t.Router.extend({routes:{"":"home",about:"about",contact:"contact"},initialize:function(){this.container=new e({el:$("#article")}),this.homeView=new n,this.aboutView=new i,this.contactView=new s},home:function(){this.container.render(this.homeView)},about:function(){this.container.render(this.aboutView)},contact:function(){this.container.render(this.contactView)}})});
+//# sourceMappingURL=router.js.map
